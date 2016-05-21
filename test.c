@@ -32,7 +32,7 @@ void main_do ()
 
 int main ()
 {
-	if (!verify_cpu_type (TRUE, TRUE))
+	if (!verify_cpu_type (TRUE, FALSE))
 		return 0;
 	
 	main_do ();
